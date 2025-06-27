@@ -1,6 +1,1 @@
-{
-  "model": {
-    "type": "minecraft:model",
-    "model": "tinycoal:item/tinycharcoal"
-  }
-}
+{"model":{"type":"minecraft:model","model":"tinycoal:item/tinycharcoal"}}

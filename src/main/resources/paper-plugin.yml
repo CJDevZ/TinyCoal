@@ -1,9 +1,9 @@
 name: TinyCoal
-version: '1.0-SNAPSHOT'
+version: '${version}'
 main: de.cjdev.tinycoal.TinyCoal
-api-version: '1.21'
+api-version: '${api_version}'
 load: STARTUP
-authors: [ CJDev ]
+authors: [CJDev]
 description: Allows you to break Coal/Charcoal down to 8 pieces that smelt 1 item.
 website: https://modrinth.com/project/tiny-coal-papermc
 dependencies:
@@ -11,5 +11,6 @@ dependencies:
     PaperModAPI:
       load: BEFORE
       required: true
-    DynamicRP:
+    RecipeAPI:
+      load: BEFORE
       required: true
